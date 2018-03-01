@@ -1,0 +1,20 @@
+/*========General-Movil========*/
+
+/*========Secciones-Movil========*/
+
+    [data-analisis="video_enterTheGungeon"]{
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+
+/*========Clases-Movil========*/
+    .conclucion{
+        background-color: palegreen;
+    }
+
+    .video{
+        display: block;
+        width: 100%;
+    }

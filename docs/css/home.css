@@ -1,0 +1,44 @@
+/*========General-Movil========*/
+a{
+    color: #333;
+}
+/*========Secciones-Movil========*/
+[data-blog="cabecera"]{
+    margin-top: 2rem;
+    background-color: teal;    
+}
+
+[data-blog="slide-novedades"]{
+    display: none;
+}
+
+[data-blog="contenido"]{
+    
+}
+
+[data-blog="pie-pagina"]{
+    background-color: #2323;
+}
+
+/*========Clases-Movil========*/
+    /*Card*/
+        .card{
+            opacity: 0.8;
+        }
+
+        .card:hover{
+            opacity: 1;
+        }
+
+    /*Nav*/
+
+
+
+
+    @media (min-width: 991.98px) { 
+
+        .flex{
+            text-align: center;
+        }
+
+     }
