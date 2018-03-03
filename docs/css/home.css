@@ -35,10 +35,11 @@ a{
 
 
 
-    @media (min-width: 991.98px) { 
+    @media (min-width: 768px) { 
 
-        .flex{
-            text-align: center;
+        [data-blog="slide-novedades"]{
+            display: block;
         }
+        
 
      }
