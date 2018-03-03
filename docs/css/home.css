@@ -13,7 +13,7 @@ a{
 }
 
 [data-blog="contenido"]{
-    padding: 100px 0;
+    
 }
 
 [data-blog="pie-pagina"]{
@@ -41,5 +41,8 @@ a{
             display: block;
         }
         
+        [data-blog="contenido"]{
+            padding: 100px 0;
+        }
 
      }
