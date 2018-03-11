@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ninanbu</title>
+    <title>Ninanbu || Blog de Videojuegos</title>
     <!--Link CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/home.css">
 </head>
 <body>
 
+    <!--Menu Fixed-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <h1 class="navbar-brand">Ninanbu</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,57 +32,59 @@
         </div>
     </nav>
 
+    <!--Jumbotron-->
     <header data-blog="cabecera" class="jumbotron jumbotron-fluid">
         <div class="container">
             <h3 class="display-4">Análisis</h3>
-            <p class="lead">En esta sección vas a encontrar todos los análisis que realizamos. Cada análisis cuenta con una gran cantidad de horas jugadas y por jugar.</p>
+            <p class="lead">Todos los juegos que estuvimos probando van a tener su correspondiente analisis. Antes de escribir, tratamos de jugar el mayor tiempo posible al titulo. </p>
         </div>
     </header>
 
-    <!--Contenido General-->
-    <div data-blog="contenido" class="container">
-
-        <!--Noticias-->
-        <section class="container">
-            <article class="row justify-content-around">
-                <div class="card mb-4" style="width: 18rem;">
-                    <a href="./enterTheGungeon/enter-the-gungeon.html"><img class="card-img-top" src="./enterTheGungeon/images/gungeon-card.png" alt="enterTheGungeon-card"></a>
-                    <div class="card-body">
-                        <h5 class="card-title">Enter the Gungeon</h5>
-                        <p class="card-text">Un juego espectacular con el que podrás pasarte largas horas frente a la computadora si te gustan los desafíos. Vas a contar con un arsenal inmenso si estás dispuesto a enfrentarte a la armazmorra.</p>
-                    </div>
+    <!--Noticias-->
+    <section data-blog="contenido" class="container">
+        <article class="row justify-content-around">
+            <div class="card mb-4" style="width: 18rem;">
+                <a href="./enterTheGungeon/enter-the-gungeon.html"><img class="card-img-top" src="./enterTheGungeon/images/gungeon-card.png" alt="enterTheGungeon-card"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Enter the Gungeon</h5>
+                    <p class="card-text">Un juego espectacular con el que podrás pasarte largas horas frente a la computadora si te gustan los desafíos. Vas a contar con un arsenal inmenso si estás dispuesto a enfrentarte a la armazmorra.</p>
                 </div>
-        
-                <div class="card mb-4" style="width: 18rem;">
-                    <a href="./deepRockGalactic/deep-rock-galactic.html"><img class="card-img-top" src="./deepRockGalactic/images/deepRock.jpg" alt="deepRockGalactic-card"></a>
-                    <div class="card-body">
-                        <h5 class="card-title">Deep Rock Galactic</h5>
-                        <p class="card-text">Excelente juego para disfrutar junto a tus amigos o simples desconocidos. Una mezcla de left 4 dead pero con mucha menos munición y luz. No apto para distraídos que puedan llegar a perderse fácil.</p>
-                    </div>
+                <div class="card-footer"> 
+                    <small class="text-muted">03/03/18</small>
                 </div>
-                    
-                <div class="card mb-4" style="width: 18rem;">
-                    <a href="#"><img class="card-img-top" src="./deadCells/images/deadCells.jpg" alt="deadCells-card"></a>
-                    <div class="card-body">
-                        <h5 class="card-title">Dead Cells</h5>
-                        <p class="card-text">Próximamente!</p>
-                    </div>
-                </div>
-            </article>
-            
-        </section>
-        
-
-        
-    </div>
+            </div>
     
+            <div class="card mb-4" style="width: 18rem;">
+                <a href="./deepRockGalactic/deep-rock-galactic.html"><img class="card-img-top" src="./deepRockGalactic/images/deepRock.jpg" alt="deepRockGalactic-card"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Deep Rock Galactic</h5>
+                    <p class="card-text">Excelente juego para disfrutar junto a tus amigos o simples desconocidos. Una mezcla de left 4 dead pero con mucha menos munición y luz. No apto para distraídos que puedan llegar a perderse fácil.</p>
+                </div>
+                <div class="card-footer"> 
+                    <small class="text-muted">04/03/18</small>
+                </div>
+            </div>
+                
+            <div class="card mb-4" style="width: 18rem;">
+                <a href="#"><img class="card-img-top" src="./deadCells/images/deadCells.jpg" alt="deadCells-card"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Dead Cells</h5>
+                    <p class="card-text">Próximamente!</p>
+                </div>
+                <div class="card-footer"> 
+                    <small class="text-muted">??/03/18</small>
+                </div>
+            </div>
+        </article>
+        
+    </section>
 
     <!--Pie-Pagina-->
     <footer data-blog="pie-pagina" class="container-fluid "> 
         <div class="text-center">
             <h3 class="text-uppercase">Redes Sociales</h3>
             <ul class="list-unstyled">
-                <li><a href="https://www.twitch.tv/alfacoy"target="_blank">Twitch</a></li>
+                <li><a href="https://www.twitch.tv/alfacoy" target="_blank">Twitch</a></li>
                 <li><a href="https://twitter.com/ninanbu" target="_blank">Twitter</a></li>
                 <li><a href="http://store.steampowered.com/curator/32251664-Ninanbu/" target="_blank">Steam</a></li>
             </ul>
@@ -94,6 +97,7 @@
         </div>
     </footer>
 
+    <!--Script-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

@@ -2,6 +2,7 @@
 a{
     color: #333;
 }
+
 /*========Secciones-Movil========*/
 [data-blog="cabecera"]{
     margin-top: 2rem;
@@ -12,8 +13,8 @@ a{
     display: none;
 }
 
-[data-blog="contenido"]{
-    
+[data-blog="aside"]{
+    display: none;
 }
 
 [data-blog="pie-pagina"]{
@@ -30,35 +31,31 @@ a{
             opacity: 1;
         }
 
-
-
 /*========Desktop========*/
-    @media (min-width: 768px) { 
+    @media (min-width: 900px) { 
 
         [data-blog="slide-novedades"]{
             display: block;
         }
         
         [data-blog="contenido"]{
-            padding: 100px 0;
+            padding: 50px 0;
         }
         
         [data-blog="aside"]{
+            display: block;
             padding: 50px 0;
         }
      }
 
 /*========Clases Desktop========*/
-     .backblack{
+     .slide-black-content{
         background-color: rgba(51, 51, 51,.6);
         border-radius: 15px;
+        padding: .5rem;
     }
 
     .img{
-        width: 300px;
-        height: 300px;
-        margin: 20px;
-        border-radius: 5px;
+        width: 250px;
+        height: 250px;
     }
-
-
