@@ -1,5 +1,8 @@
 a {
-  color: #333; }
+  color: #fafafa; }
+
+body {
+  background-color: #e6d6bf; }
 
 .card {
   opacity: 0.8; }
@@ -14,15 +17,28 @@ a {
 
 .img {
   width: 250px;
-  height: 250px; }
+  height: 150px; }
 
 [data-blog="cabecera"] {
-  margin-top: 2rem;
-  background-color: #f5b041; }
+  margin-top: 3rem;
+  background-color: #e6d6bf; }
+
+@media (min-width: 900px) {
+  [data-blog="cabecera"] {
+    margin-top: 0rem; } }
 
 @media (min-width: 900px) {
   [data-blog="contenido"] {
-    padding: 50px 0; } }
+    padding: 50px 0;
+    background-color: #a24069; } }
+
+@media (min-width: 900px) {
+  [data-blog="noticias"] {
+    padding: 100px 0; } }
+
+@media (min-width: 900px) {
+  [data-blog="reviews"] {
+    padding: 100px 0; } }
 
 [data-blog="slide-novedades"] {
   display: none; }
@@ -37,10 +53,12 @@ a {
 @media (min-width: 900px) {
   [data-blog="aside"] {
     display: block;
-    padding: 50px 0; } }
+    margin-top: 50px;
+    border-radius: 15px; } }
 
 [data-blog="pie-pagina"] {
-  background-color: #f5b041; }
+  color: #e6d6bf;
+  background-color: #343a40; }
 
 /*========Secciones-Movil========*/
 [data-analisis="video_analisis"] {
