@@ -1,21 +1,31 @@
 /*========Secciones-Movil========*/
 
-[data-analisis="video_analisis"]{
-    max-width: 600px;
-    margin: auto;
-    margin-bottom: 1rem;
-}
+    [data-analisis="video_analisis"]{
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
 
-[data-analisis="contenido"]{
-    margin-top: 90px;
-}
+    [data-analisis="contenido"]{
+        margin-top: 90px; 
+    }
 
 /*========Clases-Movil========*/
-.conclucion{
-    background-color: palegreen;
-}
+    .conclucion{
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: $red;
+    }
 
-.video{
-    display: block;
-    width: 100%;
-}
+    .video{
+        display: block;
+        width: 100%;
+        border: 2px solid black;
+    }
+
+
+
+    .link-analisis{
+        color: $link-analisis;
+        font-weight: bold;
+    }

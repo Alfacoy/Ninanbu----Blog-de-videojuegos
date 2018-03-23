@@ -27,6 +27,9 @@ body {
   [data-blog="cabecera"] {
     margin-top: 0rem; } }
 
+[data-blog="contenido"] {
+  background-color: #a24069; }
+
 @media (min-width: 900px) {
   [data-blog="contenido"] {
     padding: 50px 0;
@@ -71,8 +74,15 @@ body {
 
 /*========Clases-Movil========*/
 .conclucion {
-  background-color: palegreen; }
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #a24069; }
 
 .video {
   display: block;
-  width: 100%; }
+  width: 100%;
+  border: 2px solid black; }
+
+.link-analisis {
+  color: #a24069;
+  font-weight: bold; }

@@ -1,12 +1,17 @@
 //Version Movil    
-//Data-Blog
+//Contenido Principal
 
-@media (min-width: 900px) { 
-    
     [data-blog="contenido"]{
-        padding: 50px 0;
         background-color: $red;
     }
-    
-}
+
+//Version Desktop
+    @media (min-width: 900px) { 
+        
+        [data-blog="contenido"]{
+            padding: ($padding - 50) 0;
+            background-color: $red;
+        }
+        
+    }
 
