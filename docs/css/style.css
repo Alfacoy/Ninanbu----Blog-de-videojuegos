@@ -1,5 +1,6 @@
 a {
-  color: #fafafa; }
+  color: #fafafa;
+  text-decoration: none; }
 
 body {
   background-color: #e6d6bf; }
@@ -10,14 +11,21 @@ body {
 .card:hover {
   opacity: 1; }
 
-.slide-black-content {
+.back-slide {
   background-color: rgba(51, 51, 51, 0.6);
   border-radius: 15px;
   padding: .5rem; }
 
+.back-red {
+  background-color: #a24069; }
+
 .img {
   width: 250px;
   height: 150px; }
+
+.link-twitch {
+  color: #6341a5;
+  font-weight: 400; }
 
 [data-blog="cabecera"] {
   margin-top: 3rem;
@@ -27,13 +35,22 @@ body {
   [data-blog="cabecera"] {
     margin-top: 0rem; } }
 
-[data-blog="contenido"] {
+[data-blog="ultimas-novedades"] {
+  background-color: #e6d6bf; }
+
+[data-blog="ultimas-novedades"] {
+  background-color: #e6d6bf; }
+
+[data-blog="extras"] {
+  font-size: 1.4rem;
   background-color: #a24069; }
 
 @media (min-width: 900px) {
-  [data-blog="contenido"] {
+  [data-blog="ultimas-novedades"] {
     padding: 50px 0;
-    background-color: #a24069; } }
+    background-color: #e6d6bf; }
+  [data-blog="extras"] {
+    font-size: 3rem; } }
 
 @media (min-width: 900px) {
   [data-blog="noticias"] {

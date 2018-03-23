@@ -1,12 +1,23 @@
 //Clases "Varias"
 
-    .slide-black-content{
+    .back-slide{
         background-color: rgba(51, 51, 51,.6);
         border-radius: 15px;
         padding: .5rem;
     }
 
+    .back-red{
+        background-color: $red;
+    }
+    
     .img{
         width: 250px;
         height: 150px;
     }
+
+    .link-twitch{
+        color: $purple;
+        font-weight: 400;
+    }
+
+    
