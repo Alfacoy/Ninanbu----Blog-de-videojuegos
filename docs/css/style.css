@@ -1,0 +1,105 @@
+a {
+  color: #fafafa;
+  text-decoration: none; }
+
+body {
+  background-color: #e6d6bf; }
+
+.card {
+  opacity: 0.8; }
+
+.card:hover {
+  opacity: 1; }
+
+.back-slide {
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 15px;
+  padding: .5rem; }
+
+.back-red {
+  background-color: #a24069; }
+
+.img {
+  width: 250px;
+  height: 150px; }
+
+.link-twitch {
+  color: #6341a5;
+  font-weight: 400; }
+
+[data-blog="cabecera"] {
+  margin-top: 3rem;
+  background-color: #e6d6bf; }
+
+@media (min-width: 900px) {
+  [data-blog="cabecera"] {
+    margin-top: 0rem; } }
+
+[data-blog="ultimas-novedades"] {
+  background-color: #e6d6bf; }
+
+[data-blog="ultimas-novedades"] {
+  background-color: #e6d6bf; }
+
+[data-blog="extras"] {
+  font-size: 1.4rem;
+  background-color: #a24069; }
+
+@media (min-width: 900px) {
+  [data-blog="ultimas-novedades"] {
+    padding: 50px 0;
+    background-color: #e6d6bf; }
+  [data-blog="extras"] {
+    font-size: 3rem; } }
+
+@media (min-width: 900px) {
+  [data-blog="noticias"] {
+    padding: 100px 0; } }
+
+@media (min-width: 900px) {
+  [data-blog="reviews"] {
+    padding: 100px 0; } }
+
+[data-blog="slide-novedades"] {
+  display: none; }
+
+@media (min-width: 900px) {
+  [data-blog="slide-novedades"] {
+    display: block; } }
+
+[data-blog="aside"] {
+  display: none; }
+
+@media (min-width: 900px) {
+  [data-blog="aside"] {
+    display: block;
+    margin-top: 50px;
+    border-radius: 15px; } }
+
+[data-blog="pie-pagina"] {
+  color: #e6d6bf;
+  background-color: #343a40; }
+
+/*========Secciones-Movil========*/
+[data-analisis="video_analisis"] {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 1rem; }
+
+[data-analisis="contenido"] {
+  margin-top: 90px; }
+
+/*========Clases-Movil========*/
+.conclusion {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #a24069; }
+
+.video {
+  display: block;
+  width: 100%;
+  border: 2px solid black; }
+
+.link-analisis {
+  color: #a24069;
+  font-weight: bold; }

@@ -1,0 +1,14 @@
+//Header
+
+[data-blog="cabecera"]{
+    margin-top: 3rem;
+    background-color: $white;
+}
+
+@media (min-width: 900px) { 
+    
+    [data-blog="cabecera"]{
+        margin-top: 0rem;
+    }
+    
+}

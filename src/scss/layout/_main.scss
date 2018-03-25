@@ -1,0 +1,29 @@
+//Version Movil    
+//Contenido Principal
+
+    [data-blog="ultimas-novedades"]{
+        background-color: $white;
+    }
+
+    [data-blog="ultimas-novedades"]{
+        background-color: $white;
+    }
+    
+    [data-blog="extras"]{
+        font-size: 1.4rem;
+        background-color: $red;
+    }
+
+//Version Desktop
+    @media (min-width: 900px) { 
+        
+        [data-blog="ultimas-novedades"]{
+            padding: ($padding - 50) 0;
+            background-color: $white;
+        }
+
+        [data-blog="extras"]{
+            font-size: 3rem;
+        }
+        
+    }
