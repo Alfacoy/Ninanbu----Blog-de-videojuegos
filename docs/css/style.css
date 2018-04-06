@@ -30,8 +30,8 @@ body {
 .noshow-mobile {
   display: none; }
 
-.no-border {
-  border: 0px solid black; }
+.border {
+  border: 2px solid black; }
 
 [data-blog="cabecera"] {
   margin-top: 3rem;
@@ -103,8 +103,7 @@ body {
 
 .video {
   display: block;
-  width: 100%;
-  border: 2px solid black; }
+  width: 100%; }
 
 .link-analisis {
   color: #a24069;
