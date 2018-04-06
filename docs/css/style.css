@@ -30,6 +30,9 @@ body {
 .noshow-mobile {
   display: none; }
 
+.no-border {
+  border: 0px solid black; }
+
 [data-blog="cabecera"] {
   margin-top: 3rem;
   background-color: #e6d6bf; }
