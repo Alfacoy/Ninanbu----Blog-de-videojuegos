@@ -14,6 +14,24 @@
         background-color: $red;
     }
 
+    [data-blog="cartelera-uno"]{
+        height: 45vh;
+        background-image: url('../noticias/img/Police Stories/police.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $white;
+    }
+
+    [data-blog="cartelera-dos"]{
+        height: 45vh;
+        background-image: url('../noticias/img/Police Stories/police.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
 //Version Desktop
     @media (min-width: 900px) { 
         
