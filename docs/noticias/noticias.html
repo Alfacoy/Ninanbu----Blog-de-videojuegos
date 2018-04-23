@@ -7,7 +7,7 @@
     <title>Noticias de Videojuegos || Ninanbu</title>
     <!--Link CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
@@ -20,22 +20,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav text-center">
                 <li class="nav-item flex">
-                    <a class="nav-link active" href="../../../index.html">Inicio</a>
+                    <a class="nav-link active" href="../../index.html">Inicio</a>
                 </li>
                 <li class="nav-item flex">
                     <a class="nav-link active" href="./noticias.html">Noticias</a>
                 </li>
                 <li class="nav-item flex">
-                    <a class="nav-link active" href="../analisis.html">Análisis</a>
+                    <a class="nav-link active" href="../analisis/analisis.html">Análisis</a>
                 </li>
                 <li class="nav-item flex">
-                    <a class="nav-link active" href="../about.html">Misión</a>
+                    <a class="nav-link active" href="../mision/about.html">Misión</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!--Jumbotron-->
+    <!--Cabecera-->
     <header data-blog="cabecera" class="container text-center">
         <hr>
         <h3 class="display-4">Noticias</h3>
@@ -44,11 +44,22 @@
     </header>
    
     <!--Noticias-->
-    <section data-blog="noticias" class="container">
+    <section data-blog="noticias" class="container px-4">
         <article class="row justify-content-around">
+
+            <div class="card mb-4" style="width: 18rem;">
+                <a href="./police-stories.html"><img class="card-img-top" src="img/Police Stories/police.png" alt="noticias-card"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Alfa Abierta [Police Stories]</h5>
+                    <p class="card-text">Decisiones rápidas ante todo es lo que nos propone Mighty Morgan en su título Police Stories, en el cual encarnamos a John Rimes y Rick jones, dos miembros de la policía.</p>
+                </div>
+                <div class="card-footer"> 
+                    <small class="text-muted">22/04/18</small>
+                </div>
+            </div>
         
             <div class="card mb-4" style="width: 18rem;">
-                <a href="./updates/update_02.html"><img class="card-img-top" src="./images/nanbu.png" alt="noticias-card"></a>
+                <a href="./update_02.html"><img class="card-img-top" src="../img/nanbu.png" alt="noticias-card"></a>
                 <div class="card-body">
                     <h5 class="card-title">Update_02</h5>
                     <p class="card-text">Dimos el primer puntapié para iniciar nuestro proyecto! Como verán hay cambios grandes en la web respecto a la estética. Pudimos migrar a Sass y comenzar el Seo para posicionamiento en los navegadores.</p>
@@ -59,7 +70,7 @@
             </div>
 
             <div class="card mb-4" style="width: 18rem;">
-                <a href="./updates/update_01.html"><img class="card-img-top" src="./images/nanbu.png" alt="noticias-card"></a>
+                <a href="./update_01.html"><img class="card-img-top" src="../img/nanbu.png" alt="noticias-card"></a>
                 <div class="card-body">
                     <h5 class="card-title">Update_01</h5>
                     <p class="card-text">Primera actualización de la web. En esta se trato de agregar un espacio más para compartir informacion, asi como de hacer una ligera mejora en la apariencia estética sin olvidarnos del contenido.</p>
@@ -70,7 +81,7 @@
             </div>
             
             <div class="card mb-4" style="width: 18rem;">
-                <a href="./updates/update_00.html"><img class="card-img-top" src="./images/nanbu.png" alt="noticias-card"></a>
+                <a href="./update_00.html"><img class="card-img-top" src="../img/nanbu.png" alt="noticias-card"></a>
                 <div class="card-body">
                     <h5 class="card-title">¡Web Oficial!</h5>
                     <p class="card-text">Bienvenido a la web oficial de Ninanbu! Es mi primera vez armando algo similar y compartiendo en vivo experiencias con gente de otros países. Espero podamos armar entre todos una buena comunidad.</p>
@@ -85,16 +96,29 @@
              
     <!--Pie-Pagina-->
     <footer data-blog="pie-pagina"> 
-        <div class="text-center">
-            <h3 class="text-uppercase">Redes Sociales</h3>
-            <ul class="list-unstyled">
-                <li><a href="https://www.twitch.tv/alfacoy" target="_blank">Twitch</a></li>
-                <li><a href="https://twitter.com/ninanbu" target="_blank">Twitter</a></li>
-                <li><a href="http://store.steampowered.com/curator/32251664-Ninanbu/" target="_blank">Steam</a></li>
-                <li><a href="https://discord.gg/UAv4kNB" target="_blank">Discord</a></li>
-            </ul>
-        </div> 
-        
+        <div class="d-flex justify-content-center px-4">
+            <div class="text-center">
+                <h5 class="text-uppercase">Redes Sociales</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.twitch.tv/alfacoy" target="_blank">Twitch</a></li>
+                    <li><a href="https://twitter.com/ninanbu" target="_blank">Twitter</a></li>
+                    <li><a href="http://store.steampowered.com/curator/32251664-Ninanbu/" target="_blank">Steam</a></li>
+                    <li><a href="https://discord.gg/UAv4kNB" target="_blank">Discord</a></li>
+                </ul>
+            </div> 
+
+            <div class="col-md-1">
+
+            </div>
+
+            <div class="text-center">
+                <h5 class="text-uppercase">Información Útil</h5>
+                <ul class="list-unstyled">
+                    <li><a href="../mision/mapalocal.html" target="_blank">Mapa del Sitio</a></li>
+                </ul>
+            </div>
+        </div>
+
         <div class="py-3 text-center">
             © 2018 Copyright <a href="https://github.com/Alfacoy/Ninanbu" target="_blank">Alfacoy</a>. La web se encuentra bajo una licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons.</a>
         </div>

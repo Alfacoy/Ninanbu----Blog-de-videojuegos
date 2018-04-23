@@ -27,6 +27,10 @@ body {
   color: #6341a5;
   font-weight: 400; }
 
+.link-negro {
+  color: #343a40;
+  font-weight: 400; }
+
 .noshow-mobile {
   display: none; }
 
@@ -50,6 +54,21 @@ body {
 [data-blog="extras"] {
   font-size: 1.4rem;
   background-color: #a24069; }
+
+[data-blog="cartelera-uno"] {
+  height: 45vh;
+  background-image: url("../noticias/img/Police Stories/police.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fafafa; }
+
+[data-blog="cartelera-dos"] {
+  height: 45vh;
+  background-image: url("../noticias/img/Police Stories/police.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 @media (min-width: 900px) {
   [data-blog="ultimas-novedades"] {
