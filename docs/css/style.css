@@ -27,6 +27,10 @@ body {
   color: #6341a5;
   font-weight: 400; }
 
+.link-negro {
+  color: #343a40;
+  font-weight: 400; }
+
 .noshow-mobile {
   display: none; }
 
@@ -57,7 +61,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #e6d6bf; }
+  color: #fafafa; }
 
 [data-blog="cartelera-dos"] {
   height: 45vh;
