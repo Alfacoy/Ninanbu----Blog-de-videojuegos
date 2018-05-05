@@ -6,74 +6,75 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>http://ninanbu.com/</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/index.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/index.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/noticias/noticias.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/noticias/noticias.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/analisis/analisis.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/analisis/analisis.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/mision/about.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/mision/about.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/analisis/minit.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/analisis/minit.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/analisis/superflight.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/analisis/superflight.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/analisis/deep-rock-galactic.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/analisis/deep-rock-galactic.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/noticias/police-stories.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/noticias/police-stories.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/noticias/update_02.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/noticias/update_02.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/mision/mapalocal.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/mision/mapalocal.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/noticias/update_01.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/noticias/update_01.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/noticias/update_00.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/noticias/update_00.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://ninanbu.com/docs/analisis/enter-the-gungeon.html</loc>
-  <lastmod>2018-04-23T01:06:26+00:00</lastmod>
+  <loc>https://www.ninanbu.com/docs/analisis/enter-the-gungeon.html</loc>
+  <lastmod>2018-04-26T12:59:18+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
