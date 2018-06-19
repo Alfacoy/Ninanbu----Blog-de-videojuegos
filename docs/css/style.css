@@ -60,6 +60,7 @@ body {
   background-image: url("../noticias/img/Police Stories/police.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color: #fafafa; }
 
