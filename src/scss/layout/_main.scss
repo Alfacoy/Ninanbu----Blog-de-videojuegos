@@ -1,6 +1,5 @@
-//Version Movil    
+/*========Secciones-Movil========*/    
 //Contenido Principal
-
     [data-blog="ultimas-novedades"]{
         background-color: $white;
     }
@@ -24,7 +23,7 @@
         color: $link;
     }
 
-//Version Desktop
+/*========Secciones-Desktop========*/
     @media (min-width: 900px) { 
         
         [data-blog="cartelera-uno"]{
