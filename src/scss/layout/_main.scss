@@ -11,12 +11,12 @@
     
     [data-blog="extras"]{
         font-size: 1.4rem;
-        background-color: $red;
+        background-color: $blue;
     }
 
     [data-blog="cartelera-uno"]{
         height: 45vh;
-        background-image: url('../noticias/img/Police Stories/police.png');
+        background-image: url('../img/darkest-movil.png');
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -24,18 +24,19 @@
         color: $link;
     }
 
-    [data-blog="cartelera-dos"]{
-        height: 45vh;
-        background-image: url('../noticias/img/Police Stories/police.png');
-        background-position: left;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-    }
-
 //Version Desktop
     @media (min-width: 900px) { 
         
+        [data-blog="cartelera-uno"]{
+            height: 45vh;
+            background-image: url('../img/darkest-pc.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: $link;
+        }
+
         [data-blog="ultimas-novedades"]{
             padding: ($padding - 50) 0;
             background-color: $white;

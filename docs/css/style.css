@@ -17,7 +17,7 @@ body {
   padding: .5rem; }
 
 .back-red {
-  background-color: #a24069; }
+  background-color: #2d537a; }
 
 .img {
   width: 250px;
@@ -37,13 +37,29 @@ body {
 .b2 {
   border: 2px solid black; }
 
+[data-blog="cabecera-img"] {
+  height: 100vh;
+  background-image: url("../img/ninanbu.svg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 [data-blog="cabecera"] {
-  margin-top: 3rem;
-  background-color: #e6d6bf; }
+  padding: 50px 0; }
+
+[data-blog="cabecera-bis"] {
+  display: block; }
 
 @media (min-width: 900px) {
   [data-blog="cabecera"] {
-    margin-top: 0rem; } }
+    padding: 100px 0; }
+  [data-blog="cabecera-bis"] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  [data-blog="cabecera-bis"] > article {
+    margin-left: 20px; } }
 
 [data-blog="ultimas-novedades"] {
   background-color: #e6d6bf; }
@@ -53,25 +69,26 @@ body {
 
 [data-blog="extras"] {
   font-size: 1.4rem;
-  background-color: #a24069; }
+  background-color: #2d537a; }
 
 [data-blog="cartelera-uno"] {
   height: 45vh;
-  background-image: url("../noticias/img/Police Stories/police.png");
+  background-image: url("../img/darkest-movil.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #fafafa; }
 
-[data-blog="cartelera-dos"] {
-  height: 45vh;
-  background-image: url("../noticias/img/Police Stories/police.png");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 @media (min-width: 900px) {
+  [data-blog="cartelera-uno"] {
+    height: 45vh;
+    background-image: url("../img/darkest-pc.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fafafa; }
   [data-blog="ultimas-novedades"] {
     padding: 50px 0;
     background-color: #e6d6bf; }
@@ -136,3 +153,9 @@ body {
 .encontra {
   color: #dc7633;
   font-weight: bold; }
+
+.off {
+  display: none; }
+
+.on {
+  display: block; }

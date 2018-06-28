@@ -1,14 +1,37 @@
 //Header
 
+[data-blog="cabecera-img"]{
+    height: 100vh;
+    background-image: url("../img/ninanbu.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 [data-blog="cabecera"]{
-    margin-top: 3rem;
-    background-color: $white;
+    padding: 50px 0;
+}
+
+[data-blog="cabecera-bis"]{
+    display: block;
 }
 
 @media (min-width: 900px) { 
-    
+
     [data-blog="cabecera"]{
-        margin-top: 0rem;
+        padding: 100px 0;
     }
-    
+
+    [data-blog="cabecera-bis"]{
+        display: flex;
+    }
+
+    [data-blog="cabecera-bis"]>article{
+        margin-left: 20px;
+    }
+
 }
+
+
