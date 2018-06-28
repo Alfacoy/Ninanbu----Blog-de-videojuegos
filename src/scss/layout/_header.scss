@@ -1,5 +1,6 @@
-//Header
+/*========Secciones-Movil========*/
 
+//Imagen de presentacion
 [data-blog="cabecera-img"]{
     height: 100vh;
     background-image: url("../img/ninanbu.svg");
@@ -7,10 +8,10 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
-[data-blog="cabecera"]{
+//Cabecera Principal del Main
+[data-blog="cabecera-principal"]{
     padding: 50px 0;
 }
 
@@ -18,9 +19,15 @@
     display: block;
 }
 
+//Cabeceras Secundarias de Web
+
+
+
+/*========Secciones-Desktop========*/
 @media (min-width: 900px) { 
 
-    [data-blog="cabecera"]{
+//Cabecera Principal del Main
+    [data-blog="cabecera-principal"]{
         padding: 100px 0;
     }
 
@@ -31,6 +38,9 @@
     [data-blog="cabecera-bis"]>article{
         margin-left: 20px;
     }
+
+//Cabeceras Secundarias de Web
+
 
 }
 

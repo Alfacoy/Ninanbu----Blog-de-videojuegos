@@ -1,4 +1,7 @@
 /*========Secciones-Movil========*/
+    [data-blog="analisis-main"] article{
+        margin: 10px 0px;
+    } 
 
     [data-analisis="video_analisis"]{
         max-width: 600px;
@@ -8,6 +11,16 @@
 
     [data-analisis="contenido"]{
         margin-top: 90px; 
+    }
+    
+/*========Version Desktop========*/
+    @media (min-width: 900px) { 
+        
+        [data-blog="analisis-main"]{
+            display: flex;
+            justify-content: space-between;
+        }  
+        
     }
 
 /*========Clases-Movil========*/
@@ -36,14 +49,3 @@
         color: #dc7633;
         font-weight: bold;
     }
-
-
-
-    .off{
-        display: none;
-    }
-
-    .on{
-        display: block;
-    }
-    
