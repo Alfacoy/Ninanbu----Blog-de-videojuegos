@@ -128,7 +128,7 @@ body {
   background-color: #343a40; }
 
 /*========Secciones-Movil========*/
-[data-blog="analisis-main"] article {
+[data-blog="analisis-main"] article > div {
   margin: 10px 0px; }
 
 [data-analisis="video_analisis"] {
@@ -150,6 +150,15 @@ body {
     justify-content: space-between; } }
 
 /*========Clases-Movil========*/
+.bkgcollapse-false {
+  background-color: #a24069; }
+
+.bkgcollapse-true {
+  background-color: #2d537a; }
+
+.link-collapse {
+  color: #e6d6bf; }
+
 .conclusion {
   border: 2px solid black;
   border-radius: 5px;

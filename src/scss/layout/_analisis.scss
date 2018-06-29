@@ -1,5 +1,5 @@
 /*========Secciones-Movil========*/
-    [data-blog="analisis-main"] article{
+    [data-blog="analisis-main"] article>div{
         margin: 10px 0px;
     } 
 
@@ -24,6 +24,22 @@
     }
 
 /*========Clases-Movil========*/
+
+//Clases del Colapsable
+    .bkgcollapse-false{
+        background-color: $red;
+    }
+
+    .bkgcollapse-true{
+        background-color: $blue;
+    }
+
+    .link-collapse{
+        color: $white;
+    }
+
+
+
     .conclusion{
         border: 2px solid black;
         border-radius: 5px;
