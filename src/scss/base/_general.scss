@@ -1,11 +1,22 @@
 //General
-//Links
-    a{
-        color: $link;
-        text-decoration: none;
-    }
-
 //Background
     body{
         background-color: $white;
+    }
+
+    a{
+        color: $link;
+    }
+
+
+
+//Clases Generales
+
+    .boton{
+        display: inline;
+        padding: 10px 20px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin: 5px 0;
+        background-color: $red;
     }
