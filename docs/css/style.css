@@ -157,6 +157,14 @@ li {
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
+#darkest-card {
+  height: 100vh;
+  background-image: url("../analisis/img/DarkestDungeon/darkest-card.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
 #deepRockGalactic-card {
   height: 100vh;
   background-image: url("../analisis/img/DeepRockGalactic/deepRock.jpg");
