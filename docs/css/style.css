@@ -157,6 +157,22 @@ li {
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
+#deepRockGalactic-card {
+  height: 100vh;
+  background-image: url("../analisis/img/DeepRockGalactic/deepRock.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+#enterTheGungeon-card {
+  height: 100vh;
+  background-image: url("../analisis/img/EnterTheGungeon/gungeon-card.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
 /*========Version Movil========*/
 [data-blog="analisis-main"] article > div {
   margin: 10px 0px; }
