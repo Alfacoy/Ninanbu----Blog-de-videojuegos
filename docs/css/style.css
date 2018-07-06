@@ -2,8 +2,21 @@
 body {
   background-color: #e6d6bf; }
 
+* {
+  font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif; }
+
 a {
   color: #fafafa; }
+
+ul {
+  margin: 10px;
+  padding: 0; }
+
+li {
+  list-style: none; }
 
 .boton {
   display: inline;
@@ -72,13 +85,7 @@ a {
     margin-left: 20px; } }
 
 /*========Secciones-Movil========*/
-[data-blog="ultimas-novedades"] {
-  background-color: #e6d6bf; }
-
-[data-blog="ultimas-novedades"] {
-  background-color: #e6d6bf; }
-
-[data-blog="extras"] {
+[data-blog="horarios"] {
   font-size: 1.4rem;
   background-color: #2d537a; }
 
@@ -101,39 +108,8 @@ a {
     background-attachment: fixed;
     background-size: cover;
     color: #fafafa; }
-  [data-blog="ultimas-novedades"] {
-    padding: 50px 0;
-    background-color: #e6d6bf; }
-  [data-blog="extras"] {
+  [data-blog="horarios"] {
     font-size: 3rem; } }
-
-@media (min-width: 900px) {
-  [data-blog="noticias"] {
-    padding: 100px 0; } }
-
-@media (min-width: 900px) {
-  [data-blog="reviews"] {
-    padding: 100px 0; } }
-
-[data-blog="slide-novedades"] {
-  display: none; }
-
-@media (min-width: 900px) {
-  [data-blog="slide-novedades"] {
-    display: block; } }
-
-[data-blog="aside"] {
-  display: none; }
-
-@media (min-width: 900px) {
-  [data-blog="aside"] {
-    display: block;
-    margin-top: 50px;
-    border-radius: 15px; } }
-
-[data-blog="pie-pagina"] {
-  color: #e6d6bf;
-  background-color: #343a40; }
 
 /*========Clases-Movil========*/
 .bkgcollapse-false {
@@ -209,3 +185,30 @@ a {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; } }
+
+/*========Version Movil========*/
+/*========Version Desktop========*/
+@media (min-width: 900px) {
+  [data-blog="noticias"] {
+    padding: 100px 0; } }
+
+/*========Version Movil========*/
+.componentes-box {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  background-color: #a24069; }
+
+[data-blog="mapa"] li {
+  list-style: inherit; }
+
+/*========Version Desktop========*/
+@media (min-width: 900px) {
+  .componentes-box {
+    margin: 30px 0 200px 0;
+    padding: 10px; } }
+
+[data-blog="pie-pagina"] {
+  color: #e6d6bf;
+  background-color: #343a40; }

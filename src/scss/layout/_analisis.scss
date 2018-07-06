@@ -1,53 +1,51 @@
 /*========Clases-Movil========*/
 //Clases del Colapsable
-.bkgcollapse-false{
-    background-color: $red;
-}
+    .bkgcollapse-false{
+        background-color: $red;
+    }
 
-.bkgcollapse-true{
-    background-color: $blue;
-}
+    .bkgcollapse-true{
+        background-color: $blue;
+    }
 
-.link-collapse{
-    color: $white;
-}
+    .link-collapse{
+        color: $white;
+    }
 
-.link-color-analisis{
-    color: $blue;
-}
-
-
+    .link-color-analisis{
+        color: $blue;
+    }
 
 //Clases Varias
-.conclusion{
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: $red;
-}
+    .conclusion{
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: $red;
+    }
 
-.video{
-    display: block;
-    width: 100%;
-}
+    .video{
+        display: block;
+        width: 100%;
+    }
 
-.link-analisis{
-    color: $link-analisis;
-    font-weight: bold;
-}
+    .link-analisis{
+        color: $link-analisis;
+        font-weight: bold;
+    }
 
-.afavor{
-    color: #68dbc4;
-    font-weight: bold;
-}
+    .afavor{
+        color: #68dbc4;
+        font-weight: bold;
+    }
 
-.encontra{
-    color: #dc7633;
-    font-weight: bold;
-}
+    .encontra{
+        color: #dc7633;
+        font-weight: bold;
+    }
 
-.flex-movil{
-    display: block;
-}
+    .flex-movil{
+        display: block;
+    }
 
 
 /*========Imagen Portada Reseña========*/
