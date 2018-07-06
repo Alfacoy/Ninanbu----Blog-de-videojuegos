@@ -1,14 +1,6 @@
 /*========Secciones-Movil========*/    
-//Contenido Principal
-    [data-blog="ultimas-novedades"]{
-        background-color: $white;
-    }
-
-    [data-blog="ultimas-novedades"]{
-        background-color: $white;
-    }
-    
-    [data-blog="extras"]{
+//Contenido Principal    
+    [data-blog="horarios"]{
         font-size: 1.4rem;
         background-color: $blue;
     }
@@ -36,12 +28,7 @@
             color: $link;
         }
 
-        [data-blog="ultimas-novedades"]{
-            padding: ($padding - 50) 0;
-            background-color: $white;
-        }
-
-        [data-blog="extras"]{
+        [data-blog="horarios"]{
             font-size: 3rem;
         }
         

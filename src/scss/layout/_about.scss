@@ -1,1 +1,29 @@
+/*========Version Movil========*/
+//Build
+    .componentes-box{
+        border: 1px solid black;
+        border-radius: 5px;
 
+        margin: 10px 0 10px 0;
+        padding: 10px;
+
+        background-color: $red;
+    }
+
+    [data-blog="mapa"]{
+        li{
+            list-style: inherit;
+        }
+    }
+
+
+/*========Version Desktop========*/
+    @media (min-width: 900px) { 
+        //Build
+        .componentes-box{
+            margin: 30px 0 200px 0;
+            padding: 10px;
+        }
+
+        
+    }

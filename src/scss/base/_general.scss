@@ -1,17 +1,31 @@
 //General
-//Background
     body{
         background-color: $white;
+    }
+
+    *{
+        font-family: 'Roboto', sans-serif;
+    }
+        
+    h1,h2,h3,h4,h5,h6{
+        font-family: 'Oswald', sans-serif;
     }
 
     a{
         color: $link;
     }
 
+    ul{
+        margin: 10px;
+        padding: 0;
+    }
+
+    li{
+        list-style: none;
+    }
 
 
 //Clases Generales
-
     .boton{
         display: inline;
         padding: 10px 20px;
