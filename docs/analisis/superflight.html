@@ -47,19 +47,19 @@
             </ul>
         </div>
     </nav>
+    
+    <!--Imagen Portada Reseña-->
+    <section id="superflight-card"></section>
 
     <!--Contenedor Principal-->
     <section class="container">
+        <h3 class="text-center display-4">Superflight</h3>
         <!--Ficha Tecnica-->
-        <section>
-            <article class="mt-3 pt-5">
-                <h3 class="text-center display-4">Superflight</h3>
-                <figure class="figure">
-                    <img class="figure-img img-fluid rounded" src="img/SuperFlight/superflight.jpg" alt="Superflight">
-                </figure>
-                <h4>Ficha Técnica</h4>
+        <section class="flex-movil">
+            <article>
+                <h4 class="text-center"><u>Ficha Técnica</u></h4>
                 <ul class="list-unstyled">
-                    <li class="lead"><b>Desarrollador:</b> <a class="link-analisis" href="http://grizzlygames.co/" target="_blank">GrizzlyGames</a></li>
+                    <li class="lead"><b>Desarrollador:</b> GrizzlyGames</li>
                     <li class="lead"><b>Pagina Oficial:</b> <a class="link-analisis" href="https://superflightgame.com/" target="_blank">Superflight</a></li>
                     <li class="lead"><b>Twitter:</b> <a class="link-analisis" href="https://twitter.com/_grizzlygames?lang=es" target="_blank">Superflight</a></li>    
                     <li class="lead"><b>Género:</b> Casual</li>
@@ -68,7 +68,10 @@
                     <li class="lead"><b>Lanzamiento:</b> 09 Noviembre 2017</li>
                 </ul>
                 <br>
-                <h4>Requisitos Mínimos</h4>
+            </article>
+
+            <article>
+                <h4 class="text-center"><u>Requisitos Mínimos</u></h4>
                 <ul class="list-unstyled">
                     <li class="lead"><b>SO:</b> Windows 7.</li>
                     <li class="lead"><b>Procesador:</b> Intel Core i3 2.99 GHz o AMD equivalente.</li>
@@ -78,13 +81,21 @@
                 </ul>
             </article>
         </section>
+
+        <!--Botonera-->
+        <section class="text-center">
+            <h3 class="p-2">¡Cómpralo ya mismo!</h3>
+            <div class="boton m-1">
+                <a href="https://store.steampowered.com/app/732430/" target="_blank">Steam</a>
+            </div>   
+        </section>
     
         <hr>
         
         <!--Analisis-->
         <section>
+            <h4 class="display-4 text-center">Reseña</h4>
             <article>
-                <h4 class="text-center">Sinopsis</h4>
 
                 <p class="lead">
                     Es un título que nos dará la oportunidad de planear entre muros de rocas gigantes. La sensación de libertad es magnífica al oír el sonido del viento silbar mientras caemos en picada esquivando obstáculos.
@@ -121,9 +132,11 @@
                     <figcaption class="figure-caption">Los portales son una buena manera de saltar de mapa y continuar nuestro score.</figcaption>
                 </figure>
             
-            <!--conclucion-->
-            <article class="px-1 conclusion">
+                <hr>
+
+                <!--conclucion-->
                 <h4 class="text-center">Conclusión Final</h4>
+
                 <p class="lead">
                     Como verán es un juego en el que realzan las puntuaciones, por lo que cuenta con un sistema de marcadores en Steam, dándonos la posibilidad de competir para llegar al primer puesto.
                 </p>
@@ -136,16 +149,16 @@
                     Fuera de esto es un juego casual para disfrutar y re-jugar cuando andes aburrido.    
                 </p>
 
-                <!--Video-->
-                <article data-analisis="video_analisis">
-                    <h4 class="text-center">Video Oficial</h4>
-                    <iframe class="video b2" width="560" height="315" src="https://www.youtube.com/embed/OBGMbeC07zw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
-                </article>
             </article>
         </section>
     </section>
 
-    <br>
+    <!--Video-->
+    <section class="container-fluid bkgcollapse-true p-3">
+        <article data-analisis="video_analisis">
+            <h4 class="text-center display-4">Trailer Oficial</h4>
+            <iframe class="video b2" width="560" height="315" src="https://www.youtube.com/embed/OBGMbeC07zw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+    </section>
 
     <!--Pie-Pagina-->
     <footer data-blog="pie-pagina" class="container-fluid "> 
