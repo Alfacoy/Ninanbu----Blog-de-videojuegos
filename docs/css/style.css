@@ -200,6 +200,14 @@ li {
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
+#minit-card {
+  height: 100vh;
+  background-image: url("../analisis/img/Minit/minit.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
 /*========Version Movil========*/
 [data-blog="analisis-main"] article > div {
   margin: 10px 0px; }
