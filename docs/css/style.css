@@ -101,6 +101,9 @@ li {
   background-size: cover;
   color: #fafafa; }
 
+[data-blog="novedades"] {
+  padding: 50px; }
+
 /*========Secciones-Desktop========*/
 @media (min-width: 900px) {
   [data-blog="cartelera-uno"] {
