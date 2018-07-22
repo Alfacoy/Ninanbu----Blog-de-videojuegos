@@ -58,6 +58,9 @@ li {
 .b2 {
   border: 2px solid black; }
 
+.listas {
+  list-style: inherit; }
+
 /*========Secciones-Movil========*/
 [data-blog="cabecera-img"] {
   height: 100vh;
@@ -165,9 +168,9 @@ li {
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
-#deepRockGalactic-card {
+#deadSpace-card {
   height: 100vh;
-  background-image: url("../analisis/img/DeepRockGalactic/deepRock.jpg");
+  background-image: url("../analisis/img/DeadSpace/deadspace.jpg");
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -176,6 +179,14 @@ li {
 #enterTheGungeon-card {
   height: 100vh;
   background-image: url("../analisis/img/EnterTheGungeon/gungeon-card.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+#thisWarOfMine-card {
+  height: 100vh;
+  background-image: url("../analisis/img/ThisWarOfMine/card.jpg");
   background-size: cover;
   background-position: top;
   background-attachment: fixed;

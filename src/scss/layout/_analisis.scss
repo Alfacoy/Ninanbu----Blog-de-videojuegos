@@ -67,9 +67,9 @@
         background-repeat: no-repeat;
     }
     
-    #deepRockGalactic-card{
+    #deadSpace-card{
         height: 100vh;
-        background-image: url("../analisis/img/DeepRockGalactic/deepRock.jpg");
+        background-image: url("../analisis/img/DeadSpace/deadspace.jpg");
         background-size: cover;
         background-position: top;
         background-attachment: fixed;
@@ -84,6 +84,16 @@
         background-attachment: fixed;
         background-repeat: no-repeat;
     }
+
+    #thisWarOfMine-card{
+        height: 100vh;
+        background-image: url("../analisis/img/ThisWarOfMine/card.jpg");
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
 
    
 /*========Version Movil========*/
