@@ -63,10 +63,10 @@ li {
 
 /*========Secciones-Movil========*/
 [data-blog="cabecera-img"] {
-  height: 90vh;
+  height: 100vh;
   background-image: url("../img/ninanbu.svg");
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat; }
 
