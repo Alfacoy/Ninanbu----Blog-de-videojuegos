@@ -61,6 +61,10 @@ li {
 .listas {
   list-style: inherit; }
 
+.text-color {
+  color: #e6d6bf;
+  text-shadow: 4px 4px #343a40; }
+
 /*========Secciones-Movil========*/
 [data-blog="cabecera-img"] {
   height: 100vh;
@@ -94,7 +98,7 @@ li {
 
 [data-blog="cartelera-uno"] {
   height: 45vh;
-  background-image: url("../img/darkest-movil.png");
+  background-image: url("../img/ahora123.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -108,7 +112,7 @@ li {
 @media (min-width: 900px) {
   [data-blog="cartelera-uno"] {
     height: 45vh;
-    background-image: url("../img/darkest-pc.png");
+    background-image: url("../img/also.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;

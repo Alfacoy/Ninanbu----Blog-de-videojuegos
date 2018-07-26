@@ -44,3 +44,9 @@
     .listas{
         list-style: inherit;
     }
+
+    //Textos
+    .text-color{
+        color:$white;
+        text-shadow: 4px 4px $black;
+    }
