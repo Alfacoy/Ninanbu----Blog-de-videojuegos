@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="fb:admins" content="{100009862897624}"/>
     <title>[Análisis] Superflight PC - Ninanbu</title>
     <!--Link CSS-->
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
@@ -23,6 +24,16 @@
 
 </head>
 <body>
+
+    <!--SDK Facebook-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.1';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <!--Menu Fixed-->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #343a40;">
@@ -153,6 +164,23 @@
 
             </article>
         </section>
+    </section>
+
+    <!--Facebook Comentarios--> 
+    <section class="container flex-movil align-items-center justify-content-around">
+            <div class="fb-comments" data-href="https://www.ninanbu.com/docs/analisis/superflight.html" data-numposts="5"></div>
+            <div class="fb-like" data-href="https://www.ninanbu.com/docs/analisis/superflight.html" data-layout="box_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+    </section>
+    
+    <!--Perfil-Usuario-->
+    <section class="container">
+        <article class="m-2 border border-dark back-red rounded flex-movil">
+            <img class="img-fluid rounded p-2 img-perfil" src="../img/yo.png" alt="Brian Durand">
+            <div class="p-2">
+                <p class="text-white">Streamer en Twitch y estudiante del desarrollo web. Soy gran fanático de los videojuegos medievales y simuladores. Amo viajar, explorar y conocer lugares nuevos. Pretendo mejorar mis habilidades web con mi proyecto en Ninanbu.</p>
+                <a href="https://twitter.com/ninanbu?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-lang="es" data-show-count="false">Follow @ninanbu</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </article>
     </section>
 
     <!--Video-->
