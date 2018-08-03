@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-color: #e6d6bf; }
+  background-color: #e8d6a8; }
 
 * {
   font-family: 'Roboto', sans-serif; }
@@ -93,8 +93,7 @@ li {
 
 /*========Secciones-Movil========*/
 [data-blog="horarios"] {
-  font-size: 1.4rem;
-  background-color: #2d537a; }
+  font-size: 1.4rem; }
 
 [data-blog="cartelera-uno"] {
   height: 45vh;
