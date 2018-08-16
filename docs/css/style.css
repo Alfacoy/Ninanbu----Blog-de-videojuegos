@@ -26,12 +26,6 @@ li {
   margin: 5px 0;
   background-color: #a24069; }
 
-.card {
-  opacity: 0.8; }
-
-.card:hover {
-  opacity: 1; }
-
 .back-slide {
   background-color: rgba(51, 51, 51, 0.6);
   border-radius: 15px;
@@ -64,6 +58,12 @@ li {
 .text-color {
   color: #e6d6bf;
   text-shadow: 4px 4px #343a40; }
+
+.card {
+  opacity: 0.8; }
+
+.card:hover {
+  opacity: 1; }
 
 /*========Secciones-Movil========*/
 [data-blog="cabecera-img"] {

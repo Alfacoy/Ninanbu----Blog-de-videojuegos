@@ -1,14 +1,12 @@
-//Variables
-@import "base/variables.scss";
+//Datos Generales
 @import "base/general.scss";
 
-//Clases
-@import "clases/card.scss";
-@import "clases/varias.scss";
+//Visual
+@import "visual/visual.scss";
 
-//Layout
-@import "layout/main.scss";
-@import "layout/analisis.scss";
-@import "layout/noticias.scss";
-@import "layout/about.scss";
-@import "layout/footer.scss";
+//Estructuras
+@import "estructura/main.scss";
+@import "estructura/analisis.scss";
+@import "estructura/noticias.scss";
+@import "estructura/about.scss";
+@import "estructura/footer.scss";

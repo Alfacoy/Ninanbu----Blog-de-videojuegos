@@ -51,3 +51,14 @@
         color:$white;
         text-shadow: 4px 4px $black;
     }
+
+    //Clases "Card"
+
+    .card{
+        opacity: 0.8;
+    }
+
+    .card:hover{
+        opacity: 1;
+    }
+
