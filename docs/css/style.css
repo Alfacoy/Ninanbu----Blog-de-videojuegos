@@ -74,16 +74,11 @@ li {
   background-size: cover;
   background-repeat: no-repeat; }
 
-[data-blog="cabecera-principal"] {
-  padding: 50px 0; }
-
 [data-blog="cabecera-bis"] {
   display: block; }
 
 /*========Secciones-Desktop========*/
 @media (min-width: 900px) {
-  [data-blog="cabecera-principal"] {
-    padding: 100px 0; }
   [data-blog="cabecera-bis"] {
     display: -webkit-box;
     display: -ms-flexbox;
