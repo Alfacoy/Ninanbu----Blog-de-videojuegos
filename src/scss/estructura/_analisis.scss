@@ -1,53 +1,7 @@
-/*========Clases-Movil========*/
-//Clases del Colapsable
-    .bkgcollapse-false{
-        background-color: $red;
-    }
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Analisis Seccion Movil
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
 
-    .bkgcollapse-true{
-        background-color: $blue;
-    }
-
-    .link-collapse{
-        color: $white;
-    }
-
-    .link-color-analisis{
-        color: $blue;
-    }
-
-//Clases Varias
-    .conclusion{
-        border: 2px solid black;
-        border-radius: 5px;
-        background-color: $red;
-    }
-
-    .video{
-        display: block;
-        width: 100%;
-    }
-
-    .link-analisis{
-        color: $link-analisis;
-        font-weight: bold;
-    }
-
-    .afavor{
-        color: #68dbc4;
-        font-weight: bold;
-    }
-
-    .encontra{
-        color: #dc7633;
-        font-weight: bold;
-    }
-
-    .flex-movil{
-        display: block;
-    }
-   
-/*========Version Movil========*/
 //Seccion Principal Reseña
     [data-blog="analisis-main"] article>div{
         margin: 10px 0px;
@@ -63,8 +17,11 @@
     [data-analisis="contenido"]{
         margin-top: 90px; 
     }
-    
-/*========Version Desktop========*/
+
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Analisis Seccion Desktop
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+
     @media (min-width: 900px) { 
         //Seccion Principal Analisis
         [data-blog="analisis-main"]{
@@ -86,87 +43,6 @@
             height: 200px;
         }
 
-        /*========Imagen Portada Reseña========*/
-        #outlast-card{
-            height: 100vh;
-            background-image: url("../analisis/img/Outlast/outlast-card.jpg");
-            background-size: cover;
-            background-position: top;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-        }
-
-        #darkest-card{
-            height: 100vh;
-            background-image: url("../analisis/img/DarkestDungeon/darkest-card.jpg");
-            background-size: cover;
-            background-position: top;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-        }
-        
-        #deadSpace-card{
-            height: 100vh;
-            background-image: url("../analisis/img/DeadSpace/deadspace.jpg");
-            background-size: cover;
-            background-position: top;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-        }
-
-        #thisWarOfMine-card{
-            height: 100vh;
-            background-image: url("../analisis/img/ThisWarOfMine/card.jpg");
-            background-size: cover;
-            background-position: top;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-        }
-
-        #deepRockGalactic-card{
-            height: 100vh;
-            background-image: url("../analisis/img/DeepRockGalactic/confrontacion.jpg");
-            background-size: cover;
-            background-position: top;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-        }
-
-        #minit-card{
-            height: 100vh;
-            background-image: url("../analisis/img/Minit/minit.jpg");
-            background-size: cover;
-            background-position: top;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-        }
-
-        #superflight-card{
-            height: 100vh;
-            background-image: url("../analisis/img/SuperFlight/superflight.jpg");
-            background-size: cover;
-            background-position: top;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-        }
-
-        #heroesOfTheStorm-card{
-            height: 100vh;
-            background-image: url("../analisis/img/HeroesOfTheStorm/heroes.jpg");
-            background-size: cover;
-            background-position: bottom;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-        }
-
-        #enterTheGungeon-card{
-            height: 100vh;
-            background-image: url("../analisis/img/EnterTheGungeon/gungeon-card.jpg");
-            background-size: cover;
-            background-position: top;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-        }
     }
 
 

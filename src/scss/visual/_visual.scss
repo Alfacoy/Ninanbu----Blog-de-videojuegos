@@ -1,10 +1,6 @@
-//Clases "Varias"
-    //Backgrounds
-    .back-slide{
-        background-color: rgba(51, 51, 51,.6);
-        border-radius: 15px;
-        padding: .5rem;
-    }
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Clases Para Movil
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
 
     .back-red{
         background-color: $blue;
@@ -62,3 +58,57 @@
         opacity: 1;
     }
 
+//Clases Generales
+.boton{
+    display: inline;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px 0;
+    background-color: $red;
+}
+
+
+/*========Clases-Movil========*/
+//Clases del Colapsable
+.bkgcollapse-false{
+    background-color: $red;
+}
+
+.bkgcollapse-true{
+    background-color: $blue;
+}
+
+.link-collapse{
+    color: $white;
+}
+
+.link-color-analisis{
+    color: $blue;
+}
+
+//Clases Varias
+.conclusion{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: $red;
+}
+
+.video{
+    display: block;
+    width: 100%;
+}
+
+.link-analisis{
+    color: $link-analisis;
+    font-weight: bold;
+}
+
+.flex-movil{
+    display: block;
+}
+
+
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Clases Para Desktop
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/

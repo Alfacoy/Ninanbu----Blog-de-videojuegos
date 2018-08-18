@@ -4,10 +4,12 @@
 
 //Visual
 @import "visual/visual.scss";
+@import "visual/portadas.scss";
 
 //Estructuras
 @import "estructura/main.scss";
 @import "estructura/analisis.scss";
 @import "estructura/noticias.scss";
-@import "estructura/about.scss";
+@import "estructura/build.scss";
+@import "estructura/mapaSitio.scss";
 @import "estructura/footer.scss";

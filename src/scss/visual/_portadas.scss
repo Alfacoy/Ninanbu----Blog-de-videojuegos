@@ -1,0 +1,86 @@
+     /*========Imagen Portada Reseña========*/
+     @media (min-width: 900px) { 
+        #outlast-card{
+            height: 100vh;
+            background-image: url("../analisis/img/Outlast/outlast-card.jpg");
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        #darkest-card{
+            height: 100vh;
+            background-image: url("../analisis/img/DarkestDungeon/darkest-card.jpg");
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        
+        #deadSpace-card{
+            height: 100vh;
+            background-image: url("../analisis/img/DeadSpace/deadspace.jpg");
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        #thisWarOfMine-card{
+            height: 100vh;
+            background-image: url("../analisis/img/ThisWarOfMine/card.jpg");
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        #deepRockGalactic-card{
+            height: 100vh;
+            background-image: url("../analisis/img/DeepRockGalactic/confrontacion.jpg");
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        #minit-card{
+            height: 100vh;
+            background-image: url("../analisis/img/Minit/minit.jpg");
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        #superflight-card{
+            height: 100vh;
+            background-image: url("../analisis/img/SuperFlight/superflight.jpg");
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        #heroesOfTheStorm-card{
+            height: 100vh;
+            background-image: url("../analisis/img/HeroesOfTheStorm/heroes.jpg");
+            background-size: cover;
+            background-position: bottom;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        #enterTheGungeon-card{
+            height: 100vh;
+            background-image: url("../analisis/img/EnterTheGungeon/gungeon-card.jpg");
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+    }
+
+
