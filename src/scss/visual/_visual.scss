@@ -70,10 +70,6 @@
 
 
 /*========Clases-Movil========*/
-//Clases del Colapsable
-.bkgcollapse-false{
-    background-color: $red;
-}
 
 .bkgcollapse-true{
     background-color: $blue;
@@ -87,12 +83,6 @@
     color: $blue;
 }
 
-//Clases Varias
-.conclusion{
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: $red;
-}
 
 .video{
     display: block;
