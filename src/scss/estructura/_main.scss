@@ -1,0 +1,46 @@
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Main Seccion Movil
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+        
+    //Imagen de presentacion
+    [data-blog="cabecera"]{
+        height: 50vh;
+        background-image: url("../img/monster-hunter.png");
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+    [data-blog="novedades"]{
+        padding: 50px;
+    }
+
+    [data-blog="cartelera-uno"]{
+        height: 45vh;
+        background-image: url('../img/movil-heroes.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: $link;
+    }
+
+
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Main Seccion Desktop
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+    @media (min-width: 900px) { 
+
+        [data-blog="cartelera-uno"]{
+            height: 45vh;
+            background-image: url('../img/desktop-heroes.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: $link;
+        }
+
+    }

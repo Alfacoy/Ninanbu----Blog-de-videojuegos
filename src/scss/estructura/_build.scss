@@ -1,5 +1,7 @@
-/*========Version Movil========*/
-//Build
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Build Seccion Movil
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+
     .componentes-box{
         border: 1px solid black;
         border-radius: 5px;
@@ -10,14 +12,11 @@
         background-color: $red;
     }
 
-    [data-blog="mapa"]{
-        li{
-            list-style: inherit;
-        }
-    }
 
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Build Seccion Desktop
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
 
-/*========Version Desktop========*/
     @media (min-width: 900px) { 
         //Build
         .componentes-box{

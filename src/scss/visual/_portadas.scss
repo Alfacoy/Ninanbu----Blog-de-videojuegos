@@ -1,92 +1,5 @@
-/*========Clases-Movil========*/
-//Clases del Colapsable
-    .bkgcollapse-false{
-        background-color: $red;
-    }
-
-    .bkgcollapse-true{
-        background-color: $blue;
-    }
-
-    .link-collapse{
-        color: $white;
-    }
-
-    .link-color-analisis{
-        color: $blue;
-    }
-
-//Clases Varias
-    .conclusion{
-        border: 2px solid black;
-        border-radius: 5px;
-        background-color: $red;
-    }
-
-    .video{
-        display: block;
-        width: 100%;
-    }
-
-    .link-analisis{
-        color: $link-analisis;
-        font-weight: bold;
-    }
-
-    .afavor{
-        color: #68dbc4;
-        font-weight: bold;
-    }
-
-    .encontra{
-        color: #dc7633;
-        font-weight: bold;
-    }
-
-    .flex-movil{
-        display: block;
-    }
-   
-/*========Version Movil========*/
-//Seccion Principal Reseña
-    [data-blog="analisis-main"] article>div{
-        margin: 10px 0px;
-    } 
-
-//Seccion Reseña
-    [data-analisis="video_analisis"]{
-        max-width: 600px;
-        margin: auto;
-        margin-bottom: 1rem;
-    }
-
-    [data-analisis="contenido"]{
-        margin-top: 90px; 
-    }
-    
-/*========Version Desktop========*/
-    @media (min-width: 900px) { 
-        //Seccion Principal Analisis
-        [data-blog="analisis-main"]{
-            display: flex;
-            justify-content: space-between;
-        }  
-
-        .flex-movil{
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .show{
-            display: none;
-        }
-
-        .img-perfil{
-            width: 300px;
-            height: 200px;
-        }
-
-        /*========Imagen Portada Reseña========*/
+     /*========Imagen Portada Reseña========*/
+     @media (min-width: 900px) { 
         #outlast-card{
             height: 100vh;
             background-image: url("../analisis/img/Outlast/outlast-card.jpg");
@@ -167,7 +80,7 @@
             background-attachment: fixed;
             background-repeat: no-repeat;
         }
-    }
 
+    }
 
 

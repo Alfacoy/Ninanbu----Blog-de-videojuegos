@@ -1,0 +1,104 @@
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Clases Para Movil
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+
+    .back-red{
+        background-color: $blue;
+    }
+    
+    //Imagenes
+
+    .img{
+        width: 250px;
+        height: 150px;
+    }
+
+    //Links
+    .link-twitch{
+        color: $purple;
+        font-weight: 400;
+    }
+
+    .link-negro{
+        color: $black;
+        font-weight: 400;
+    }
+
+    //Hide
+    .show{
+        display: block;
+    }
+
+    //Video
+
+
+    //Padding,Margin,Border
+    .b2{
+        border: 2px solid black;
+    }
+
+
+    .listas{
+        list-style: inherit;
+    }
+
+    //Textos
+    .text-color{
+        color:$white;
+        text-shadow: 4px 4px $black;
+    }
+
+    //Clases "Card"
+
+    .card{
+        opacity: 0.8;
+    }
+
+    .card:hover{
+        opacity: 1;
+    }
+
+//Clases Generales
+.boton{
+    display: inline;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px 0;
+    background-color: $red;
+}
+
+
+/*========Clases-Movil========*/
+
+.bkgcollapse-true{
+    background-color: $blue;
+}
+
+.link-collapse{
+    color: $white;
+}
+
+.link-color-analisis{
+    color: $blue;
+}
+
+
+.video{
+    display: block;
+    width: 100%;
+}
+
+.link-analisis{
+    color: $link-analisis;
+    font-weight: bold;
+}
+
+.flex-movil{
+    display: block;
+}
+
+
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Clases Para Desktop
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/

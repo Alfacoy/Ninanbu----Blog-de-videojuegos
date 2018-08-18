@@ -1,0 +1,35 @@
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Analisis Seccion Movil
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+
+//Seccion Reseña
+    [data-analisis="video_analisis"]{
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+/*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*\
+    Analisis Seccion Desktop
+\*-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+
+    @media (min-width: 900px) { 
+
+        .flex-movil{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .show{
+            display: none;
+        }
+
+        .img-perfil{
+            width: 300px;
+            height: 200px;
+        }
+
+    }
+
+
+
