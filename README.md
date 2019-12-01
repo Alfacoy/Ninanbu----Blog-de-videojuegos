@@ -1,3 +1,4 @@
 # Bienvenido a Ninanbu Brother!
+## Blog de videojuegos (Fuera de uso)
 
-Si te interesa el mundo de los videojuegos pasate por mi [Twitch](https://www.twitch.tv/alfacoy).
+https://alfacoy.github.io/Ninanbu----Blog-de-videojuegos/
